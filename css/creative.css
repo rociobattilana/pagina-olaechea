@@ -4505,6 +4505,8 @@ input[type="button"].btn-block {
   padding: 0.5rem 1rem;
   background-color: white;
   color: black;
+  background-color: white;
+  color: black;
 }
 
 .navbar > .container,
@@ -4591,6 +4593,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
+  color: #000;
 }
 
 .navbar-toggler-icon {
@@ -5059,6 +5062,7 @@ input[type="button"].btn-block {
   width: 100%;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
+  size: cover;
 }
 
 .card-img-bottom {
@@ -10724,6 +10728,7 @@ hr.light {
   font-size: 1.50rem;
   padding: 0.75rem 0;
   color: #000;
+  color: black;
 }
 
 @media (min-width: 992px) {
@@ -10886,6 +10891,7 @@ transform: scale(1.1);
 .vida-class:hover{
   transform: scale(1.1);
   }
+
 
 
 
