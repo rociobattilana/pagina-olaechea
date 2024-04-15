@@ -131,8 +131,9 @@ body {
   line-height: 1.5;
   color: #000000;
   text-align: left;
-  background-color: #fff;
+  
   background-image: url(../img/Group\ 1.png) center;
+  align-items: center;
 }
 
 [tabindex="-1"]:focus {
@@ -155,6 +156,13 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
+.p.text-center.mt-1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
 
 abbr[title],
 abbr[data-original-title] {
@@ -4503,9 +4511,9 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  background-color: white;
+  
   color: black;
-  background-color: white;
+  background-color:
   color: black;
 }
 
@@ -4522,7 +4530,7 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  background-color: white;
+  
   
 }
 
@@ -7074,7 +7082,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #F4623A !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -7084,7 +7092,8 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+
+  background-color: white;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10468,7 +10477,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color:black;
 }
 
 .text-primary {
@@ -10540,7 +10549,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: white !important;
 }
 
 .text-black-50 {
@@ -10701,10 +10710,10 @@ hr.light {
 #mainNav {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: white;
+  
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-  background-color: white;
+  
 }*/
 
 #mainNav .navbar-brand {
