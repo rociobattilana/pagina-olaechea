@@ -4450,6 +4450,7 @@ input[type="button"].btn-block {
   color: #6c757d;
   background-color: transparent;
   border-color: transparent;
+  background-color: white;
 }
 
 .nav-tabs .nav-link.active,
@@ -4598,6 +4599,7 @@ input[type="button"].btn-block {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  
 }
 
 .navbar-toggler {
