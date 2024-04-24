@@ -4467,13 +4467,13 @@ input[type="button"].btn-block {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0.25rem;
+
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   
-  background-color: #f4623a;
+ 
 }
 
 .nav-fill .nav-item {
@@ -10409,6 +10409,12 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important;
 }
+.colocacion-texto{
+  align-items: center;
+  display: block;
+  text-align: center  !important;
+  
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -10932,6 +10938,12 @@ transform: scale(1.1);
 .vida-class:hover{
   transform: scale(1.1);
   }
+.colocacion-texto{
+  align-items: center;
+  display: block;
+  text-align: center;
+  
+}
 
 
 

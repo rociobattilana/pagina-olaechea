@@ -27,6 +27,7 @@
 
   <!-- Plugin CSS -->
   <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   <!-- Theme CSS - Includes Bootstrap -->
   <link href="css/creative.css" rel="stylesheet">
@@ -265,6 +266,10 @@
                 margin-left: 0;
                 margin-right: 0;
                 size: 434px 264px;
+                size: 100%;
+                display:flex;
+                min-height: 100%;
+                background-color: #F4623A;
               }
         .container-xxl-fluid{
                 background: #F4623A;
@@ -280,6 +285,9 @@
                 margin-right: 0;
                 size: 434px 264px;
                 size: 2000px 96px;
+                background-color: #F4623A;
+
+                
               }
       
 
@@ -299,101 +307,222 @@
 
   <br>
   <br>
-
- 
-<section id="Magia" class="Magia" class="bg-primary-dark">
-  <div class="position-relative">
-
-
-    <div class="container" data-aos="zoom-out" class="bg-primary-dark">
-      <section class="bg-primary-dark">
-      <div class="container" data-aos="fade-up">
-      <div class="row g-4 g-sm-5" data-aos="fade-up" data-aos-delay="200">
-      <div class="col-sm-6">
-      <div class="action position-absolute top-0 start-0 translate-middle">
-    <img src="img/20231027_090424 2.png" class="img-fluid" alt="">
-      </div>
-      </div>
-      </div>
-      </div>
-    </div>
-
-
+  <br>
+  <br>
+  <br>
+  <br>
+<section id="Colocación" class="Colocación">
+  <div class="contenedor">
+   
+ <h2 class="colocacion-texto ">Tipos de colocación </h2 text-align-center> 
   
- 
-  <div class="col-sm-5">
-    
-    <hr class="divider my-5">
- <h2 class="pt-0 pt-lg-0 ">Tipos de colocación </h2 text-align-center> 
-  <div class="action position-absolute top-0 end-0 translate-middle">
-      
-
-    <!-- Tabs -->
-    <section id="magia" class="magia">
-     
-    <ul class="nav nav-pills mb-1">
-      <li><a class="nav-link active" data-bs-toggle="pill" href="#tab1" role="tab">Planta alta</a></li>
-      <li><a class="nav-link" data-bs-toggle="pill" href="#tab2" class="color-default" role="tab" tabindex="-1">Planta baja</a></li>
-      
-    
-    </ul>
-  
-    <style>
-
-      .nav-pills{ 
-       border-bottom: 1px solid rgba(var(--color-secondary-rgb), 0.2);
-      }
-
-      .magia .nav-pills li+li {
-       margin-left: 40px;
-      }
-
-       .magia .nav-link {
-       background: rgba(var(--color-secondary), 0.8);
-       font-size: 18px;
-       font-weight: 400;
-       color: var(--color-default);
-       padding: 12px 0;
-       margin-bottom: -2px;
-       border-radius: 0;
-       font-family: var(--font-primary);
-      }
-
-      .magia .nav-link.active {
-       color: var(--color-default);
-       background: color rgba(var(--color-secondary), 0.8);
-       border-bottom: 3px solid var(--color-primary);
-      }
-
-
-      
-
-    </style>
-    <!-- End Tabs -->
-
-    <!-- Tab Content -->
-    <section id="about" class="about">
-      <div class="tab-content">
-
-      <div class="tab-pane fade show active" id="tab1">
-         <div class="d-flex align-items-center mt-1">
-        
-        </div>
-        <p> Aislamos las carpetas con asfalto caliente y sobre eso pegamos un nylon de 200 micrones para aislar cualquier fuga o residuo de humedad existente en la carpeta.</p>
-
-
-      </div>
-    </div>
-  </div>
-    </section>
-  </section>
-  <br>
-  <br>
-  <br>
-  <br>
 </div>
-     </div>
-    </div>
+<hr class="hr divider my-3">
+
+  <div class="text-align-right">
+
+    <img src="img/para achicar.jpg" class="img col-md-6 mt-5" alt="img-fluid">
+
+  </div>
+
+
+
+    <div class="este">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#planta-baja" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Planta Baja</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#planta-alta" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Planta Alta</button>
+      </li>
+
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="planta-baja" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">Aislamos las carpetas con asfalto caliente y sobre eso pegamos <br>
+        un nylon de 200 micrones para aislar cualquier fuga o residuo <br> de humedad existente en la carpeta.</div> 
+      <div class="tab-pane fade" id="planta-alta" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">Utilizamos material epoxi, lo utilizamos en planta alta donde no <br>hay contacto con humedad (la tierra).
+        Lleva un tratamiento previo <br> la carpeta, aplicandole una imprimación con la cual <br>logramos un exelente anclaje de la madera a la carpeta.</div>
+     <style>
+  .nav-link-active{
+    color: #F4623A;
+    stroke: none;
+ 
+  }
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+      color: #F4623A;
+      stroke: none;
+      background-color: none;
+      font-weight: bold;
+      border: 0;
+      background: none;
+
+
+
+
+    }
+    .nav-pills .nav-link{
+      color: black;
+      stroke: none;
+      background-color: none;
+      font-weight: lighter;
+      border: 0;
+      background: none;
+
+
+
+
+    }
+    .pills-tabContent.tab-content{
+      display: inline-block;
+      vertical-align: middle;
+      margin-top: 0;
+ 
+
+
+
+
+
+    }
+    .tab-content > .active{
+      display: inline-block;
+      vertical-align: middle;
+          }
+ 
+
+.text-align-right{
+      display: inline-block;
+      vertical-align: middle;
+    } 
+ 
+
+.text-align-right{
+  
+
+
+
+    }
+
+
+
+
+    .este{
+      width: fit-content;
+      margin-top: 0;
+      margin-right: auto;
+      align-items: center;
+    }
+    .hr.divider{
+    align-items: left !important;
+    text-align: left;
+    width: auto;
+    justify-content: right;
+    height:5px; 
+   width: 30%;
+   margin: 0;
+    }
+
+      
+
+
+
+     </style>
+    
+    
+    
+
+
+ 
+  
+  
+</div>
+</div>
+  <style>
+    .contenedor {
+  display: flex;
+  width: fit-content;
+
+  
+}
+.img{
+  margin-right: 0 !important;
+  display: flex;
+  text-align: right;
+  align-items: right;
+  display: inline-block;
+  vertical-align: middle;
+  float:right;
+  align-items: center;
+  margin-top: auto;
+  
+
+}
+
+.container-sm {
+  width: 599;
+  height: 83;
+  min-height: 100%;
+  size: small;
+  margin-left: 0;
+  align-items: center;
+  
+  
+  
+}
+
+  .imagen-contenedor{
+   align-items: center;
+   margin-top: 0;
+   margin-left: 0;
+   display: flex;
+   
+
+  
+}
+.parrafo-colocacion{
+   align-items: center;
+   margin-top: 0;
+   margin-left: 0;
+   display: flex;
+   
+
+  
+}
+  
+  
+
+  
+
+.colocacion-texto{
+  align-items: center;
+  display: block;
+  text-align: center;
+  text-align: left;
+  
+}
+
+    .img {
+  width: 350px;
+  height: 250px;
+  margin-top: 0;
+  float:right;
+  margin-top: 0px;
+
+}
+  </style>
+</section>
+
+ 
+
+  
+   
+
+
+      
+
+
+
+
+
 
   
   
